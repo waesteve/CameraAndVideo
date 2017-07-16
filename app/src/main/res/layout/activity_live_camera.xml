@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.sparksoft.cameraandvideo.MVideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="40dp"
+        />
+    <com.sparksoft.cameraandvideo.MTextureView
+        android:paddingTop="200dp"
+        android:id="@+id/textureView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/invalidateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test_Level2"
+        android:layout_margin="160dp"/>
+
+    <com.sparksoft.cameraandvideo.MVideoView
+        android:id="@+id/bigvideoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:visibility="gone"
+        />
+    <com.sparksoft.cameraandvideo.MSurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="60dp"
+        android:padding="2dp"
+        />
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:layout_margin="120dp"/>
+
+
+
+</FrameLayout>
